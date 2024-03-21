@@ -1,0 +1,76 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.subscription,
+.upgrade-options {
+    margin-bottom: 30px;
+}
+
+.subscription h2,
+.upgrade-options h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subscription p,
+.upgrade-options p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.subscription .btn-cancel,
+.upgrade-options .btn-upgrade {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscription .btn-cancel:hover,
+.upgrade-options .btn-upgrade:hover {
+    background-color: #0056b3;
+}
+
+.subscription ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.subscription ul li {
+    margin-bottom: 10px;
+}
+
+.subscription ul li strong {
+    color: #333;
+}
+
